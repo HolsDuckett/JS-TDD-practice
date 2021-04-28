@@ -1,0 +1,24 @@
+{
+  "name": "JS-practice",
+  "version": "1.0.0",
+  "description": "Using codewars katas and tech tests to practice TDD process in javascript and jest.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HolsDuckett/JS-TDD-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HolsDuckett/JS-TDD-practice/issues"
+  },
+  "homepage": "https://github.com/HolsDuckett/JS-TDD-practice#readme"
+}
