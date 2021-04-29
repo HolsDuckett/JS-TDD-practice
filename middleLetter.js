@@ -3,8 +3,11 @@ function middleLetter(string) {
     return string;
   } else
   splitStringArray = string.split("");
-  console.log(splitStringArray);
-  return splitStringArray[splitStringArray.length / 2 - 0.5];
+  return splitStringArray[middleLetterIndex(splitStringArray)];
+  }
+
+  function middleLetterIndex(array){
+    return array.length / 2 - 0.5;
   }
 
   module.exports = middleLetter;
