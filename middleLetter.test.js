@@ -9,4 +9,8 @@ describe('Find the middle letter', () => {
     test('returns full string when only a 2 character string is passed', () => {
         expect(middleLetter("BB")).toBe("BB");
     });
+
+    test('returns the middle letter of a 3 character string is passed', () => {
+        expect(middleLetter("cat")).toBe("a");
+    });
 })
