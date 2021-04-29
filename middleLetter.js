@@ -1,5 +1,5 @@
-function middleLetter(a, b) {
-    return a + b;
+function middleLetter(string) {
+    return string;
   }
 
   module.exports = middleLetter;

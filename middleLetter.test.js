@@ -1,8 +1,8 @@
 const middleLetter = require("./middleLetter");
 
 
-describe('this is a describe block', () => {
-    test('two sums are added togeter - test test', () => {
-        expect(middleLetter(1,2)).toBe(3);
+describe('Find the middle letter', () => {
+    test('returns the string when only 1 character string is given', () => {
+        expect(middleLetter("A")).toBe("A");
     });
 })
