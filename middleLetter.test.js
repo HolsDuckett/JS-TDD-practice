@@ -1,3 +1,4 @@
+const { test, expect } = require("@jest/globals");
 const middleLetter = require("./middleLetter");
 
 
@@ -13,4 +14,8 @@ describe('Find the middle letter', () => {
     test('returns the middle letter of a 3 character string is passed', () => {
         expect(middleLetter("cat")).toBe("a");
     });
+
+    test('returns the 2 middle charsacters if the length of string is even', () => {
+        expect(middleLetter("middle")).toBe("dd");
+    })
 })
