@@ -1,7 +1,7 @@
 const { array } = require("yargs");
 
 function middleLetter(string) {
-  if(string.length === 1 || string.length === 2){
+  if(noMiddleLetter(string)){
     return string;
   } else
   splitStringArray = string.split("");
@@ -16,6 +16,10 @@ function middleLetter(string) {
 
   function middleLetterIndex(array){
     return array.length / 2 - 0.5;
+  }
+
+  function noMiddleLetter(string){
+    string.length === 1 || string.length === 2; 
   }
 
   module.exports = middleLetter;
